@@ -1,153 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TransFormar</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href=".\css\bootstrap.min.css">
-  </head>
-
-  <body>
-    <!-- Inicio do Header-->
-    <header>
-      <nav>
-        <a class="logo" href="index.html"><img src="imagens\logo.png" alt=""></a>
-        <div class="mobile-menu">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style_form.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <div class="registro">
+            <p>Novo neste site?</p>
+            <a class="registre-se" href="registre-se.html">Registre-se</a>
         </div>
-        <ul class="nav-list">
-          <li><a href="index.html">Início</a></li>
-          <li><a href="Login.html">Sou Trans</a></li>
-          <li><a href="Login.html">Sou Empresa</a></li>
-        </ul>
-        <a href="Login.html"><img class="user-interface" src="imagens\user-interface.png" alt="user-interface"></a>
-        <a href="empresas-parceiras.html"><button class="botao-empresas">Para Empresas</button></a>
-      </nav>
-    </header>
-    <!-- Inicio do Main -->
-    <main>
-      <div class="container">
-        <button class="arrow-left control" aria-label="Previous image">◀</button>
-        <button class="arrow-right control" aria-label="Next Image">▶</button>
-        <div class="gallery-wrapper">
-          <div class="gallery">  
-            <img src="imagens\unsplash_HZb58QCj8go.png" alt="Beach Image" class="item current-item">
-            <img src="imagens\unsplash_HZb58QCj8go.png" alt="Animal Image" class="item current-item">
-            <img src="imagens\unsplash_HZb58QCj8go.png" alt="Street Image" class="item current-item">
-            <img src="imagens\unsplash_HZb58QCj8go.png" alt="Zoo Image" class="item current-item">
-            <img src="imagens\unsplash_HZb58QCj8go.png" alt="Model Image" class="item current-item">
-          </div>
+        <div class="row">
+            <div class="col">
+                <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span class="text">E-mail</span>
+                    <span class="line"></span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span class="text">Senha</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            <div class="fim">
+                <a class="senha" href="#">Esqueceu a senha?</a>
+                <button>Fazer Login</button>
+            </div>
         </div>
-        </div>
-  <div class="caixa-de-pesquisa">
-  <form class="search-box1">
-
-    <div class="busca">
-      <input type="search" class="search-txt" placeholder="Área de atuação">
-      <button class="botao-lupa"><img class="lupa" src="imagens\search.png" alt="lupa"></button>
     </div>
-
-    <div class="busca">
-    <input type="text" class="search-txt" placeholder="Empresa">
-      <button class="botao-lupa"><img class="lupa" src="imagens\search.png" alt="lupa"></button>
-  </div>
-  <div class="busca">
-    <button class="botao-limpar">Limpar</button>
-  </div>
-  </form>
-
-<form class="search-box2">
-
-  <div class="form-group">
-    <select name="estados" id="estados">
-      <option value="estados" selected>Estados</option>
-      <option value="SP">São Paulo</option>
-      <option value="MG">Minas Gerais</option>
-      <option value="RJ">Rio de Janeiro</option>
-    </select>
-  </div>
-
-  <div class="form-group">
-    <select name="ensino" id="ensino">
-      <option value="estados" selected>Ensino</option>
-      <option value="EM">Ensino Médio</option>
-      <option value="GR">Graduação</option>
-      <option value="ME">Mestrado</option>
-    </select>
-  </div>
-
-  <div class="form-group">
-    <select name="estados" id="tipo">
-      <option value="tipo" selected>Tipo</option>
-      <option value="RJ">Rio de Janeiro</option>
-    </select>
-  </div>
-
-    <div class="busca">
-    <button class="botao-atualizar">Atualizar</button>
-  </div>
-
-</form>
-
-
-  <div class="caixas">
-    <form class="caixa">
-      <p class="cidade">São Paulo -SP</p>
-      <p class="empresa">Virtucon</p>
-      <p class="vaga">Consultora de Vendas</p>
-      <button class="candidatar">Candidatar</button>
-    </form>
-    <form class="caixa">
-      <p class="cidade">Campinas -SP</p>
-      <p class="empresa">Globex</p>
-      <p class="vaga">Assistente Contábil</p>
-      <button class="candidatar">Candidatar</button>
-    </form>
-    <form class="caixa">
-      <p class="cidade">Rio de Janeiro - RJ</p>
-      <p class="empresa">Oscorp</p>
-      <p  class="vaga">Jovem Aprendiz</p>
-      <button class="candidatar">Candidatar</button>
-    </form>
-  </div>
-  <div class="oportunidades">
-    <button class="mais">Mais Oportunidades</button>
-  </div>
-  
-    <img class="hired-cuate" src="imagens\Hired-cuate 1.png" alt="">
-</div>
-    </main>
-    <!-- Inicio do Footer -->
-     <footer>
-        <div class="container2">
-            <div class="social-links">
-                <a href="https://linkedin.com/"><img class="redes" src="imagens\linkedin.png" alt="linkedin"></a>
-                    <a href="instagram.com"><img class="redes" src="imagens\instagram.png" alt="instagram"></a>
-                    <a href="https://www.facebook.com/"><img class="redes" src="imagens\facebook.png" alt="facebook"></a>
-                </div>
-                <div id="areas">
-                    <div class="footer-col">
-                    <a href="Login.html">Sou Trans</a>
-                </div>
-                <div class="footer-col">
-                  <a href="Login.html">Sou Empresa</a>
-                    
-                </div>
-                <div class="footer-col">
-                  <a href="Login.html">TransFormar</a>
-                </div>
-                <div class="footer-col">
-                    <a href="empresas-parceiras.html">Parcerias</a>
-                </div>
-                </div>
-                <img id="logo-footer" src="imagens\logo.png" alt="logo">
-        </div>
-   </footer> 
-    <script src="mobile-navbar.js"></script>
-    <script type="text/javascript"  src="./js/bootstrap.min.js"></script>
-  </body>
+</body>
 </html>
